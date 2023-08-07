@@ -1,4 +1,17 @@
+// 常用設定
+*,*::before,*::after {
+  box-sizing: border-box;
+}
 body {
   // Roboto 沒有中文字體設定；Noto-Sans-TC 有英文字體設定，所以 Roboto > Noto-Sans-TC 順序才能分別正確載入中、英兩種字體 
   font-family: 'Roboto','Noto Sans TC', sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+  color: inherit; // 繼承 body  
 }

@@ -46,17 +46,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-// 常用設定
-*,*::before,*::after {
-  box-sizing: border-box;
-}
-img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
-}
-a {
-  text-decoration: none;
-  color: inherit; // 繼承 body  
-}
