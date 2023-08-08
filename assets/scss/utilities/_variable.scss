@@ -1,0 +1,43 @@
+:root {
+  --primary: #AA0601;
+  --secondary: #FBF2F2;
+  --gray-100: #707070;
+  --gray-200: #F2F2F2;
+  --gray-300: #DCDCDC;
+  --brown-100: #B75929;
+  --brown-200: #5F3E2D;
+  --dark-red-100: #9F1213;
+  --dark-red-200: #650300;
+  --balck: #0A0A0A;
+  --white: #ffffff;
+  --text-body: #000000;
+  --text-dark: #212529;
+  --text-gray: #555555;
+  --text-title: var(--dark-red-200);
+  // Roboto 沒有中文字體設定；Noto-Sans-TC 有英文字體設定，所以 Roboto > Noto-Sans-TC 順序才能分別正確載入中、英兩種字體 
+  --font-family: 'Roboto','Noto Sans TC',system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --font-size: 1rem;
+  --font-weight: 400;
+  --font-height: 1.5;
+}
+
+$colors: (
+  "primary": var(--primary),
+  "white": var(--white),
+);
+
+$spacings: (
+  "0": 0,
+  "1": 0.75,
+  "2": 1,
+  "3": 1.5,
+  "4": 2,
+  "5": 2.5,
+  "6": 3,
+  "7": 4.5,
+  "8": 5, 
+);
+
+$font-size: (
+  
+)

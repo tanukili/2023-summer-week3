@@ -3,8 +3,13 @@
   box-sizing: border-box;
 }
 body {
-  // Roboto 沒有中文字體設定；Noto-Sans-TC 有英文字體設定，所以 Roboto > Noto-Sans-TC 順序才能分別正確載入中、英兩種字體 
-  font-family: 'Roboto','Noto Sans TC', sans-serif;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: var(--font-height);
+  font-weight: var(--font-weight);
+  @include pad {
+    font-size: calc(var(--font-size) * 1.25);
+  }
 }
 img {
   max-width: 100%;
@@ -14,4 +19,8 @@ img {
 a {
   text-decoration: none;
   color: inherit; // 繼承 body  
+  font-size: inherit;
+  &:hover {
+    text-decoration: underline;
+  }
 }

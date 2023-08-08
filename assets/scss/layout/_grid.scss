@@ -1,0 +1,13 @@
+.container {
+  max-width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  @include pad {
+    max-width: 720px;
+  }
+  @include wed {
+    max-width: 1320px;
+  }
+}

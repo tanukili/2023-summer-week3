@@ -1,0 +1,91 @@
+@each $number, $spacing in $spacings {
+  // margin
+  .mt-#{$number} {
+    margin-top: $spacing * 1rem;
+  }
+  .mb-#{$number} {
+    margin-bottom: $spacing * 1rem;
+  }
+  .ms-#{$number} {
+    margin-left: $spacing * 1rem;
+  }
+  .me-#{$number} {
+    margin-right: $spacing * 1rem;
+  }
+  .mx-#{$number} {
+    margin-left: $spacing * 1rem;
+    margin-right: $spacing * 1rem;
+  }
+  .my-#{$number} {
+    margin-top: $spacing * 1rem;
+    margin-bottom: $spacing * 1rem;
+  }
+  // padding
+  .pt-#{$number} {
+    padding-top: $spacing * 1rem;
+  }
+  .pb-#{$number} {
+    padding-bottom: $spacing * 1rem;
+  }
+  .ps-#{$number} {
+    padding-left: $spacing * 1rem;
+  }
+  .pe-#{$number} {
+    padding-right: $spacing * 1rem;
+  }
+  .px-#{$number} {
+    padding-left: $spacing * 1rem;
+    padding-right: $spacing * 1rem;
+  }
+  .py-#{$number} {
+    padding-top: $spacing * 1rem;
+    padding-bottom: $spacing * 1rem;
+  }
+}
+
+@include pad {
+  @each $number, $spacing in $spacings {
+    // margin
+    .mt-md-#{$number} {
+      margin-top: $spacing * 1rem;
+    }
+    .mb-md-#{$number} {
+      margin-bottom: $spacing * 1rem;
+    }
+    .ms-md-#{$number} {
+      margin-left: $spacing * 1rem;
+    }
+    .me-md-#{$number} {
+      margin-right: $spacing * 1rem;
+    }
+    .mx-md-#{$number} {
+      margin-left: $spacing * 1rem;
+      margin-right: $spacing * 1rem;
+    }
+    .my-md-#{$number} {
+      margin-top: $spacing * 1rem;
+      margin-bottom: $spacing * 1rem;
+    }
+    // padding
+    .pt-md-#{$number} {
+      padding-top: $spacing * 1rem;
+    }
+    .pb-md-#{$number} {
+      padding-bottom: $spacing * 1rem;
+    }
+    .ps-md-#{$number} {
+      padding-left: $spacing * 1rem;
+    }
+    .pe-md-#{$number} {
+      padding-right: $spacing * 1rem;
+    }
+    .px-md-#{$number} {
+      padding-left: $spacing * 1rem;
+      padding-right: $spacing * 1rem;
+    }
+    .py-md-#{$number} {
+      padding-top: $spacing * 1rem;
+      padding-bottom: $spacing * 1rem;
+    }
+  }
+}
