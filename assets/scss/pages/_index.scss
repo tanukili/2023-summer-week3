@@ -1,3 +1,15 @@
-.index-title {
-  font-size: 100px;
+.bg-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  &.banner {
+    background-image: url(../images/home-header-sm.png);
+    padding: 144px 0;
+    @include pad {
+      padding: 296px 0;
+    }
+    @include wed {
+      background-image: url(../images/home-header.png);
+    }
+  }
 }

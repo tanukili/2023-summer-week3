@@ -24,6 +24,7 @@
 $colors: (
   "primary": var(--primary),
   "white": var(--white),
+  "deep": var(--dark-red-200),
 );
 
 $spacings: (
@@ -46,4 +47,5 @@ $font-sizes: (
   "4": 1.5rem,
   "5": 2rem,
   "6": 2.25rem,
+  "7": 4rem,
 )
