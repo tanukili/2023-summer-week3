@@ -42,3 +42,25 @@
     }
   }
 }
+
+.nav {
+  display: flex;
+  img {
+    max-width: 24px;
+    height: auto;
+    @include pad {
+      max-width: 40px;
+    }
+    @include wed {
+      max-width: 48px;
+    }
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .material-icons-outlined {
+    @include pad {
+      font-size: 3rem;
+    }
+  }
+}

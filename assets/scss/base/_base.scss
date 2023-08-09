@@ -7,9 +7,6 @@ body {
   font-size: var(--font-size);
   line-height: var(--font-height);
   font-weight: var(--font-weight);
-  @include pad {
-    font-size: calc(var(--font-size) * 1.25);
-  }
 }
 img {
   max-width: 100%;
@@ -23,4 +20,7 @@ a {
   &:hover {
     text-decoration: underline;
   }
+}
+.material-icons-outlined {
+  vertical-align: bottom;
 }

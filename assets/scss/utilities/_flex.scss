@@ -1,6 +1,46 @@
+.d-none {
+  display: none;
+}
 .d-block {
   display: block;
 }
 .d-flex {
   display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+// md
+@include pad {
+  .d-md-flex {
+    display: flex;
+  }
+  .d-md-block {
+    display: block;
+  }
+  .flex-md-column {
+    flex-direction: column;
+  }
+  .justify-content-md-between {
+    justify-content: space-between;
+  }
+  .justify-content-md-center {
+    justify-content: center;
+  }
+  .align-items-md-center {
+    align-items: center;
+  }
 }

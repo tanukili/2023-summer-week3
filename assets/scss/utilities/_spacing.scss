@@ -89,3 +89,50 @@
     }
   }
 }
+
+@include wed {
+  @each $number, $spacing in $spacings {
+    // margin
+    .mt-lg-#{$number} {
+      margin-top: $spacing * 1rem;
+    }
+    .mb-lg-#{$number} {
+      margin-bottom: $spacing * 1rem;
+    }
+    .ms-lg-#{$number} {
+      margin-left: $spacing * 1rem;
+    }
+    .me-lg-#{$number} {
+      margin-right: $spacing * 1rem;
+    }
+    .mx-lg-#{$number} {
+      margin-left: $spacing * 1rem;
+      margin-right: $spacing * 1rem;
+    }
+    .my-lg-#{$number} {
+      margin-top: $spacing * 1rem;
+      margin-bottom: $spacing * 1rem;
+    }
+    // padding
+    .pt-lg-#{$number} {
+      padding-top: $spacing * 1rem;
+    }
+    .pb-lg-#{$number} {
+      padding-bottom: $spacing * 1rem;
+    }
+    .ps-lg-#{$number} {
+      padding-left: $spacing * 1rem;
+    }
+    .pe-lg-#{$number} {
+      padding-right: $spacing * 1rem;
+    }
+    .px-lg-#{$number} {
+      padding-left: $spacing * 1rem;
+      padding-right: $spacing * 1rem;
+    }
+    .py-lg-#{$number} {
+      padding-top: $spacing * 1rem;
+      padding-bottom: $spacing * 1rem;
+    }
+  }
+}
