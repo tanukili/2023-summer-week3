@@ -1,3 +1,4 @@
+// 滿版背景
 .bg-img {
   @include bg-img-set;
   &.banner {
@@ -17,6 +18,7 @@
     }
   }
 }
+// design 部分
 .design-img {
   @include bg-img-set;
   background-image: url(../images/home-section4-1-sm.png);
@@ -31,14 +33,12 @@
     @include pad {
       background-image: url(../images/home-section4-2.png);
     }
+    &+h4 {
+      @include wed {
+        border-left: 1px solid var(--border-color);
+      }
   }
 }
-li:last-child {
-  h4 {
-    @include wed {
-      border-left: 1px solid var(--border-color);
-    }
-  }
 }
 // font-style
 .display-1 {

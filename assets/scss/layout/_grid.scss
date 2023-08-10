@@ -23,13 +23,23 @@
     width: 100%;
     @include gutter-base(0, 0.5, 1);
   }
-  &.gx-0 {
-    --gutter-x: 0;
-  }
-  &.gy-1 {
+}
+
+.gx-0 {
+  --gutter-x: 0;
+}
+.gy-1 {
+  --gutter-y: 1rem;
+}
+.gy-2 {
+  --gutter-y: 1.5rem;
+}
+@include pad {
+  .gy-md-2 {
     --gutter-y: 1.5rem;
   }
 }
+
  // flex屬性: 放大比 縮小比 原始尺寸
 .col {
   flex: 1 0 0%;

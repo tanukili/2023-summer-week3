@@ -1,45 +1,45 @@
 @each $number, $spacing in $spacings {
   // margin
   .mt-#{$number} {
-    margin-top: $spacing * 1rem;
+    margin-top: $spacing * 1rem !important;
   }
   .mb-#{$number} {
-    margin-bottom: $spacing * 1rem;
+    margin-bottom: $spacing * 1rem !important;
   }
   .ms-#{$number} {
-    margin-left: $spacing * 1rem;
+    margin-left: $spacing * 1rem !important;
   }
   .me-#{$number} {
-    margin-right: $spacing * 1rem;
+    margin-right: $spacing * 1rem !important;
   }
   .mx-#{$number} {
-    margin-left: $spacing * 1rem;
-    margin-right: $spacing * 1rem;
+    margin-left: $spacing * 1rem !important;
+    margin-right: $spacing * 1rem !important;
   }
   .my-#{$number} {
-    margin-top: $spacing * 1rem;
-    margin-bottom: $spacing * 1rem;
+    margin-top: $spacing * 1rem !important;
+    margin-bottom: $spacing * 1rem !important;
   }
   // padding
   .pt-#{$number} {
-    padding-top: $spacing * 1rem;
+    padding-top: $spacing * 1rem !important;
   }
   .pb-#{$number} {
-    padding-bottom: $spacing * 1rem;
+    padding-bottom: $spacing * 1rem !important;
   }
   .ps-#{$number} {
-    padding-left: $spacing * 1rem;
+    padding-left: $spacing * 1rem !important;
   }
   .pe-#{$number} {
-    padding-right: $spacing * 1rem;
+    padding-right: $spacing * 1rem !important;
   }
   .px-#{$number} {
-    padding-left: $spacing * 1rem;
-    padding-right: $spacing * 1rem;
+    padding-left: $spacing * 1rem !important;
+    padding-right: $spacing * 1rem !important;
   }
   .py-#{$number} {
-    padding-top: $spacing * 1rem;
-    padding-bottom: $spacing * 1rem;
+    padding-top: $spacing * 1rem !important;
+    padding-bottom: $spacing * 1rem !important;
   }
 }
 
@@ -47,45 +47,45 @@
   @each $number, $spacing in $spacings {
     // margin
     .mt-md-#{$number} {
-      margin-top: $spacing * 1rem;
+      margin-top: $spacing * 1rem !important;
     }
     .mb-md-#{$number} {
-      margin-bottom: $spacing * 1rem;
+      margin-bottom: $spacing * 1rem !important;
     }
     .ms-md-#{$number} {
-      margin-left: $spacing * 1rem;
+      margin-left: $spacing * 1rem !important;
     }
     .me-md-#{$number} {
-      margin-right: $spacing * 1rem;
+      margin-right: $spacing * 1rem !important;
     }
     .mx-md-#{$number} {
-      margin-left: $spacing * 1rem;
-      margin-right: $spacing * 1rem;
+      margin-left: $spacing * 1rem !important;
+      margin-right: $spacing * 1rem !important;
     }
     .my-md-#{$number} {
-      margin-top: $spacing * 1rem;
-      margin-bottom: $spacing * 1rem;
+      margin-top: $spacing * 1rem !important;
+      margin-bottom: $spacing * 1rem !important;
     }
     // padding
     .pt-md-#{$number} {
-      padding-top: $spacing * 1rem;
+      padding-top: $spacing * 1rem !important;
     }
     .pb-md-#{$number} {
-      padding-bottom: $spacing * 1rem;
+      padding-bottom: $spacing * 1rem !important;
     }
     .ps-md-#{$number} {
-      padding-left: $spacing * 1rem;
+      padding-left: $spacing * 1rem !important;
     }
     .pe-md-#{$number} {
-      padding-right: $spacing * 1rem;
+      padding-right: $spacing * 1rem !important;
     }
     .px-md-#{$number} {
-      padding-left: $spacing * 1rem;
-      padding-right: $spacing * 1rem;
+      padding-left: $spacing * 1rem !important;
+      padding-right: $spacing * 1rem !important;
     }
     .py-md-#{$number} {
-      padding-top: $spacing * 1rem;
-      padding-bottom: $spacing * 1rem;
+      padding-top: $spacing * 1rem !important;
+      padding-bottom: $spacing * 1rem !important;
     }
   }
 }
@@ -94,45 +94,45 @@
   @each $number, $spacing in $spacings {
     // margin
     .mt-lg-#{$number} {
-      margin-top: $spacing * 1rem;
+      margin-top: $spacing * 1rem !important;
     }
     .mb-lg-#{$number} {
-      margin-bottom: $spacing * 1rem;
+      margin-bottom: $spacing * 1rem !important;
     }
     .ms-lg-#{$number} {
-      margin-left: $spacing * 1rem;
+      margin-left: $spacing * 1rem !important;
     }
     .me-lg-#{$number} {
-      margin-right: $spacing * 1rem;
+      margin-right: $spacing * 1rem !important;
     }
     .mx-lg-#{$number} {
-      margin-left: $spacing * 1rem;
-      margin-right: $spacing * 1rem;
+      margin-left: $spacing * 1rem !important;
+      margin-right: $spacing * 1rem !important;
     }
     .my-lg-#{$number} {
-      margin-top: $spacing * 1rem;
-      margin-bottom: $spacing * 1rem;
+      margin-top: $spacing * 1rem !important;
+      margin-bottom: $spacing * 1rem !important;
     }
     // padding
     .pt-lg-#{$number} {
-      padding-top: $spacing * 1rem;
+      padding-top: $spacing * 1rem !important;
     }
     .pb-lg-#{$number} {
-      padding-bottom: $spacing * 1rem;
+      padding-bottom: $spacing * 1rem !important;
     }
     .ps-lg-#{$number} {
-      padding-left: $spacing * 1rem;
+      padding-left: $spacing * 1rem !important;
     }
     .pe-lg-#{$number} {
-      padding-right: $spacing * 1rem;
+      padding-right: $spacing * 1rem !important;
     }
     .px-lg-#{$number} {
-      padding-left: $spacing * 1rem;
-      padding-right: $spacing * 1rem;
+      padding-left: $spacing * 1rem !important;
+      padding-right: $spacing * 1rem !important;
     }
     .py-lg-#{$number} {
-      padding-top: $spacing * 1rem;
-      padding-bottom: $spacing * 1rem;
+      padding-top: $spacing * 1rem !important;
+      padding-bottom: $spacing * 1rem !important;
     }
   }
 }

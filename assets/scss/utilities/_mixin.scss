@@ -19,7 +19,7 @@
   margin-top: calc(var(--gutter-y) * $mt);
 };
 
-// background image 不重複 
+// background image 
 @mixin bg-img-set{
   background-repeat: no-repeat;
   background-size: cover;
