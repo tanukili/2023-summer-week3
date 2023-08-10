@@ -47,3 +47,10 @@
     align-items: center;
   }
 }
+
+// lg
+@include wed {
+  .flex-lg-row {
+    flex-direction: row;
+  }
+}

@@ -13,11 +13,18 @@
     }
   }
 }
-
-.title-style {
+// font-style
+.display-1 {
   text-align: center;
   font-weight: 700;
   color: var(--dark-red-200);
+}
+.display-2 {
+  text-align: center;
+  font-style: italic;
+  font-weight: 900;
+  color: var(--primary);
+  font-size: 3rem;
 }
 
 .feature-icon {
