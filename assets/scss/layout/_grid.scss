@@ -18,10 +18,13 @@
   display: flex;
   flex-wrap: wrap;
   // 消除兩側、上方多於推擠
-  @include gutter-base(-0.5, -1);
+  @include gutter-base(-0.5, 0, -1);
   & > * {
     width: 100%;
-    @include gutter-base(0.5, 1);
+    @include gutter-base(0, 0.5, 1);
+  }
+  &.gx-0 {
+    --gutter-x: 0;
   }
   &.gy-1 {
     --gutter-y: 1.5rem;

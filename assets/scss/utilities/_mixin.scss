@@ -11,8 +11,10 @@
 };
 
 // 格線
-@mixin gutter-base($gx,$gy) {
-  padding-left: calc(var(--gutter-x) * $gx);
-  padding-right: calc(var(--gutter-x) * $gx);
-  margin-top: calc(var(--gutter-y) * $gy);
+@mixin gutter-base($mx, $px, $mt) {
+  margin-left: calc(var(--gutter-x) * $mx);
+  margin-right: calc(var(--gutter-x) * $mx);
+  padding-left: calc(var(--gutter-x) * $px);
+  padding-right: calc(var(--gutter-x) * $px);
+  margin-top: calc(var(--gutter-y) * $mt);
 };
