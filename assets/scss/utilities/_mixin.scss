@@ -18,3 +18,10 @@
   padding-right: calc(var(--gutter-x) * $px);
   margin-top: calc(var(--gutter-y) * $mt);
 };
+
+// background image 不重複 
+@mixin bg-img-set{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

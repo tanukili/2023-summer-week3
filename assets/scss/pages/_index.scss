@@ -1,7 +1,5 @@
 .bg-img {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  @include bg-img-set;
   &.banner {
     background-image: url(../images/home-header-sm.png);
     padding: 144px 0;
@@ -10,6 +8,35 @@
     }
     @include wed {
       background-image: url(../images/home-header.png);
+    }
+  }
+  &.design {
+    background-image: url(../images/index-bg-sm.png);
+    @include wed {
+      background-image: url(../images/index-bg.png);
+    }
+  }
+}
+.design-img {
+  @include bg-img-set;
+  background-image: url(../images/home-section4-1-sm.png);
+  width: 100%;
+  height: 240px;
+  display: block;
+  @include pad {
+    background-image: url(../images/home-section4-1.png);
+  }
+  &.sec {
+    background-image: url(../images/home-section4-2-sm.png);
+    @include pad {
+      background-image: url(../images/home-section4-2.png);
+    }
+  }
+}
+li:last-child {
+  h4 {
+    @include wed {
+      border-left: 1px solid var(--border-color);
     }
   }
 }

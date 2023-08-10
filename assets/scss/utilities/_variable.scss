@@ -14,6 +14,7 @@
   --text-dark: #212529;
   --text-gray: #555555;
   --text-title: var(--dark-red-200);
+  --border-color: #DEE2E6;
   // Roboto 沒有中文字體設定；Noto-Sans-TC 有英文字體設定，所以 Roboto > Noto-Sans-TC 順序才能分別正確載入中、英兩種字體 
   --font-family: 'Roboto','Noto Sans TC',system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   --font-size: 1rem;
