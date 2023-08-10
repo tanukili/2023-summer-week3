@@ -11,3 +11,46 @@
     max-width: 1320px;
   }
 }
+
+.row {
+  --gutter-x: 1.5rem; // 定義區域變數
+  --gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  // 消除兩側、上方多於推擠
+  @include gutter-base(-0.5, -1);
+  & > * {
+    width: 100%;
+    @include gutter-base(0.5, 1);
+  }
+  &.gy-1 {
+    --gutter-y: 1.5rem;
+  }
+}
+ // flex屬性: 放大比 縮小比 原始尺寸
+.col {
+  flex: 1 0 0%;
+}
+
+@each $number, $percent in $row-cols {
+  .row-cols-#{$number} > * {
+    flex: 0 0 auto;
+    width: $percent;
+  }
+}
+@include pad {
+  @each $number, $percent in $row-cols {
+    .row-cols-md-#{$number} > * {
+      flex: 0 0 auto;
+      width: $percent;
+    }
+  }
+}
+@include wed {
+  @each $number, $percent in $row-cols {
+    .row-cols-lg-#{$number} > * {
+      flex: 0 0 auto;
+      width: $percent;
+    }
+  }
+}

@@ -23,6 +23,7 @@
 
 $colors: (
   "primary": var(--primary),
+  "secondary": var(--secondary),
   "white": var(--white),
   "deep": var(--dark-red-200),
 );
@@ -48,5 +49,11 @@ $font-sizes: (
   "4": 1.5rem,
   "5": 2rem,
   "6": 2.25rem,
-  "7": 4rem,
-)
+  // "7": 4rem,
+);
+
+$row-cols: (
+  "1": 100%,
+  "2": 50%,
+  "4": 25%,
+);

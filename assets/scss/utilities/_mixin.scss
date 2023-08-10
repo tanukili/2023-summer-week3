@@ -8,4 +8,11 @@
   @media(min-width:1200px) {
     @content
   }
-}
+};
+
+// 格線
+@mixin gutter-base($gx,$gy) {
+  padding-left: calc(var(--gutter-x) * $gx);
+  padding-right: calc(var(--gutter-x) * $gx);
+  margin-top: calc(var(--gutter-y) * $gy);
+};
