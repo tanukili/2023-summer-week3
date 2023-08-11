@@ -45,6 +45,10 @@
 
 .nav {
   display: flex;
+  a {
+    display: block;
+  }
+  // footer 用到樣式
   img {
     max-width: 24px;
     height: auto;
@@ -61,6 +65,13 @@
   .material-icons-outlined {
     @include pad {
       font-size: 3rem;
+    }
+  }
+  // product-categories 用到樣式
+  &.full-page {
+    @media(max-width: 1200px) {
+      margin-left: -12px;
+      margin-right: -12px;
     }
   }
 }

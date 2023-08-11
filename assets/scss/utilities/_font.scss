@@ -17,10 +17,16 @@ h3,.h3 {
     font-size: $font-size;
   }
 }
-
 @include pad {
   @each $number, $font-size in $font-sizes {
     .fs-md-#{$number} {
+      font-size: $font-size;
+    }
+  }
+}
+@include wed {
+  @each $number, $font-size in $font-sizes {
+    .fs-lg-#{$number} {
       font-size: $font-size;
     }
   }
