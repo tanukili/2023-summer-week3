@@ -1,0 +1,38 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  a {
+    display: block;
+    padding: 10px 14px; 
+    @include pad {
+      // 細部調整
+      padding-left: 15px;
+      padding-right: 15px;      
+    }
+    &:hover {
+      text-decoration: none;
+      background: var(--text-body);
+      color: var(--white);
+    }
+  }
+  li {
+    border: 1px solid var(--text-gray);
+    border-right: none;
+    &:last-child {
+      border-right: 1px solid var(--text-gray);
+      background: var(--gray-200);
+    }
+    &:first-child, &:last-child {
+      // 細部調整
+      font-size: 19px;
+      a {
+        padding: 9.5px 9px;
+        @include pad {
+          padding-left: 12px;
+          padding-right: 12px;
+        }
+      }
+    }
+  }
+}
