@@ -22,4 +22,19 @@
       }
     }
   }
+  // sunglasses 頁面
+  &.sunglasses {
+    div {
+      background-image: url(../images/product-header-sm-3.png);
+      @include wed {
+        background-image: url(../images/product-header-3.png);
+      }
+    }
+    .sec {
+      background-image: url(../images/product-header-sm-4.png);
+      @include wed {
+        background-image: url(../images/product-header-4.png);
+      }
+    }
+  }
 }
