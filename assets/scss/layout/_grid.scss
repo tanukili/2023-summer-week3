@@ -49,11 +49,19 @@
     flex: 0 0 auto;
     width: 50%;
   }
+  .col-md-10 {
+    flex: 0 0 auto;
+    width: 83.333%;
+  }
 }
 @include wed {
   .col-lg-4 {
     flex: 0 0 auto;
     width: 33.333%;
+  }
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
   }
 }
 

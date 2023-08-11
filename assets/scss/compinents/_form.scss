@@ -1,0 +1,28 @@
+form {
+  input {
+    --input-color: rgb(0,0,0);
+    font-size: 1rem;
+    padding: 6px 12px;
+    color: rgb(var(--input-color), 0.2);
+    background-color: transparent; // 背景設定透明
+    border: 1px solid var(--input-color);
+    width: 100%;
+    // 推出 feedback 高度
+    &[name=feedback] {
+      padding-bottom: 106px;
+    }
+    // checkbox 框框
+    &[type=checkbox] {
+      width: 16px;
+      height: 16px;
+      margin: 4px 8px 4px 4px;
+    }
+  }
+  label {
+    margin-bottom: 8px;
+    display: block;
+  }
+  div {
+    margin-bottom: 16px;
+  }
+}
