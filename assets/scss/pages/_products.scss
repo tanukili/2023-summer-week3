@@ -1,0 +1,25 @@
+// product banner
+.img-banner {
+  height: 136px;
+  @include pad {
+    height: 296px;
+  }
+  div {
+    @include bg-img-set;
+  }
+  // optical 頁面
+  &.optical {
+    div {
+      background-image: url(../images/product-header-sm-1.png);
+      @include wed {
+        background-image: url(../images/product-header-1.png);
+      }
+    }
+    .sec {
+      background-image: url(../images/product-header-sm-2.png);
+      @include wed {
+        background-image: url(../images/product-header-2.png);
+      }
+    }
+  }
+}
