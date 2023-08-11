@@ -45,6 +45,14 @@
   .gy-md-2 {
     --gutter-y: 1.5rem;
   }
+  .gy-md-3 {
+    --gutter-y: 2.5rem;
+  }
+}
+@include wed {
+  .gy-lg-4 {
+    --gutter-y: 5rem;
+  }
 }
 
  // flex屬性: 放大比 縮小比 原始尺寸

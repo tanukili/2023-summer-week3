@@ -8,3 +8,11 @@
     background: var(--dark-red-200);
   }
 }
+
+.btn-square {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background: var(--brown-100);
+}

@@ -27,6 +27,7 @@ $colors: (
   "secondary": var(--secondary),
   "white": var(--white),
   "deep": var(--dark-red-200),
+  "brown": var(--brown-200),
 );
 
 $spacings: (
@@ -39,8 +40,9 @@ $spacings: (
   "6": 2,
   "7": 2.5,
   "8": 3,
-  "9": 4.5,
-  "10": 5, 
+  "9": 4,
+  "10": 4.5,
+  "11": 5, 
 );
 
 $font-sizes: (

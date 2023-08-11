@@ -56,6 +56,9 @@
 
 // lg
 @include wed {
+  .d-lg-block {
+    display: block;
+  }
   .flex-lg-row {
     flex-direction: row;
   }

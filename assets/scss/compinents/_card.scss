@@ -21,3 +21,12 @@
     color: var(--gray-100);
   }
 }
+// product 頁面的卡片
+.card-product {
+  img {
+    height: 168px;
+    width: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+  }
+}

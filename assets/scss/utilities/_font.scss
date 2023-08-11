@@ -11,6 +11,15 @@ h3,.h3 {
     font-size: 3rem;
   }
 }
+h4,.h4 {
+  font-size: 1.5rem;
+  @include pad {
+    font-size: 2rem;
+    span {
+      font-size: 2.625rem;
+    }
+  }
+}
 
 @each $number, $font-size in $font-sizes {
   .fs-#{$number} {
