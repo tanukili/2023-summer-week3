@@ -86,6 +86,14 @@
     width: $percent;
   }
 }
+@include mobile-lg {
+  @each $number, $percent in $row-cols {
+    .row-cols-sm-#{$number} > * {
+      flex: 0 0 auto;
+      width: $percent;
+    }
+  }
+}
 @include pad {
   @each $number, $percent in $row-cols {
     .row-cols-md-#{$number} > * {
